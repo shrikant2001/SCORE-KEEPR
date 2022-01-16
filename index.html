@@ -18,24 +18,27 @@
     <div class="menu">
 
         <div class="inner">
-            <form action="">
+
+            <form action="save()">
                 <!-- number of teams,scores to point -->
                 <div class="row">
                     <label for="nteam" id="text">
-                        Enter number of teams &#160;&#160;&#160;&#160;   
-                        <input type="number" name="nteam" id="nteam">
+                        Enter number of teams
+
                     </label>
+                    <input type="number" name="nteam" id="nteam">
                 </div>
                 <div class="row">
                     <label for="nscore" id="text">
-                        Enter number of total points &#160;&#160;&#160;&#160;   
-                        <input type="number" name="nscore" id="nscore">
+                        Enter number of total points
+
                     </label>
+                    <input type="number" name="nscore" id="nscore">
                 </div>
                 <div class="row">
-                    <button type="submit" id="submit">Let's score!</button>
+                    <button type="button" id="submit" onclick="save()">Let's score!</button>
                 </div>
-                
+
             </form>
         </div>
 
