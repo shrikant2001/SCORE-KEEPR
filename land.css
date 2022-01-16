@@ -12,49 +12,68 @@ h1 {
   font-size: 120px;
   text-align: center;
   text-shadow: 1px 1px 10px rgb(92, 92, 92), 1px 1px 10px rgb(0, 0, 0);
+  transition: all 2s;
 }
 
 .menu {
-  width: 50%;
+  width: 30%;
   height: auto;
 
   display: flex;
   margin: 0px auto;
 
   border-radius: 26px;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.3);
 
   padding: 3% 3%;
+  
 }
 .inner {
   width: 100%;
   height: 100%;
 
-  background-color: #000000;
+  background-color: rgba(0, 0, 0, 0.5);
+  
+  box-shadow: 1px 1px 5px rgb(255, 255, 255), 1px 1px 6px rgb(255, 254, 254);
   border-radius: 26px;
 
   padding: 20px 35px;
+
 }
 
 .row {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  margin: 10px 0px;
+  margin: 20px 0px;
   padding: 5px 2px;
 }
 #text {
-  font-size: 32px;
+  font-size: 24px;
   color: white;
 }
 input {
+  border-radius: 7px;
+  padding: 5px 5px;
   margin-left: auto;
-  width: 70px;
+  width: 120px;
+  font-size: 18px;
+}
+input:placeholder-shown{
+background-color: rgb(163, 163, 163);
+}
+/* for nscore */
+#nscore{
+  width : 120px;
+  height : 40px;
   font-size: 32px;
+  margin : 0px auto;
 }
 
 #submit {
-  background-color: rgb(76, 255, 76);
+  padding: 0px 15px;
+  background-color: rgb(6, 165, 6);
+  
   border-radius: 15px;
 
   margin: 0 auto;
@@ -62,5 +81,13 @@ input {
   height: 60px;
   width: auto;
 
-  font-size: 32px;
+  font-size: 24px;
+
+  transition: all 2s;
+
+}
+#submit:hover{
+  transition: 0.4s;
+  transform: translateY(-2px);
+  background-color: rgb(20, 204, 20);
 }
