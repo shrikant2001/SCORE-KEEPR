@@ -11,26 +11,30 @@
   </head>
 
   <body>
-    <h1 id="title">SCORE IT !</h1>
+    <div id="title"> 
+      <h1 id="title_s">SCORE</h1>
+      <h1 id="title_k" >KEEPR</h1>
+    </div>
+    
 
     <div class="menu" id="menu">
       <div class="inner">
           <!-- number of teams,scores to point -->
 
           <div class="row">
-            <label for="team1" id="text" style="color: rgb(252, 105, 47);"> <b>TEAM 1 </b> </label>
+            <label for="team1" id="text" style="color: #F81806;"> <b>TEAM 1 </b> </label>
             <input type="text" name="team1" id="team1" placeholder="type here"/>
           </div>
 
           <div class="row">
-            <label for="team2" id="text" style="color: rgb(0, 110, 255); "> <b>TEAM 2</b> </label>
+            <label for="team2" id="text" style="color: #027FFF; "> <b>TEAM 2</b> </label>
             <input type="text" name="team2" id="team2" placeholder="type here"/>
           </div>
 
           <hr>
 
           <div class="row">
-            <label for="nscore" id="text"> Enter number of total points </label>
+            <label for="nscore" id="text"> NUMBER OF TOTAL POINTS</label>
           </div>
 
           <div class="row"><input type="number" name="nscore" id="nscore" /></div>
@@ -39,7 +43,7 @@
 
           <div class="row">
             <button type="button" id="submit" onclick="zoom(); save(); ">
-              Score it!
+              SCORE IT!
             </button>
           </div>
 
