@@ -1,2 +1,3 @@
-# Score-It-
-Score keeper I made as a part of udemy course The Web Developer Bootcamp.
+# SCORE-KEEPR
+This is a user-friendly and customisable Score keeping website for 2 teams/players.
+
