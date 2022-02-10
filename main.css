@@ -1,121 +1,110 @@
 * {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 body {
-  background-image: linear-gradient(
-    to right,
-    #f81808 0%,
-    #f81808 50%,
-    #007dfb 50%,
-    #007dfb 100%
-  );
-  /* background: #e7e7e7; */
-  background-position: center;
-  background-size: cover;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Flag_of_Catania.svg/1280px-Flag_of_Catania.svg.png);
+    /* background: #e7e7e7; */
+    background-position: center;
+    background-size: cover;
 }
 
 #title {
-  margin: 40px auto;
-  padding: 5px 10px;
-  width: 40%;
-
-  display: flex;
-  justify-content: center;
-
-  background-color: black;
-  box-shadow: 0.3vw 1vw 0px 0px rgba(140, 140, 140, 1),
-    inset 0.3vw 1vw 0px 0px rgba(140, 140, 140, 1);
-
-  border-style: solid;
-  border-width: 0.8vw;
-  border-color: rgb(187, 187, 187);
-  border-radius: 20px;
+    margin: 40px auto;
+    padding: 5px 10px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    box-shadow: 0.3vw 1vw 0px 0px rgba(140, 140, 140, 1), inset 0.3vw 1vw 0px 0px rgba(140, 140, 140, 1);
+    border-style: solid;
+    border-width: 0.8vw;
+    border-color: rgb(187, 187, 187);
+    border-radius: 20px;
 }
+
 h1 {
-  width: 50%;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  font-size: 4vw;
-
+    width: 50%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 4vw;
 }
+
 #title_s {
-  text-align: end;
-  color: #027fff;
-  text-shadow: 1px 2px 0px #970a00;
+    text-align: end;
+    color: #027fff;
+    text-shadow: 1px 2px 0px #970a00;
 }
+
 #title_k {
-  text-align: start;
-  color: #f81606;
-  text-shadow: 1px 2px 0px #004891;
+    text-align: start;
+    color: #f81606;
+    text-shadow: 1px 2px 0px #004891;
 }
+
 .row {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin: 20px 0px;
-  padding: 5px 2px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px 0px;
+    padding: 5px 2px;
 }
 
-
-.teamnames{
-  display: flex;
-  justify-content: space-around;
-  text-shadow: 1px 2px 0px #969696;
+.teamnames {
+    display: flex;
+    justify-content: space-around;
+    text-shadow: 1px 2px 0px #969696;
 }
-#t1,
-#t2 {
-  display: inline;
-  text-decoration: underline;
+
+.t1,
+.t2 {
+    display: inline;
+    text-decoration: underline;
 }
 
 .board {
-  background-color: black;
-
-  padding: 2% 2%;
-  
-
-  border-radius: 20px;
-  border-style: solid;
-  border-width: 1vw;
-
-  width: 18vw;
-  height: 18vw;
+    background-color: black;
+    padding: 2% 2%;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 1vw;
+    width: 18vw;
+    height: 18vw;
 }
 
-#team1{
-  border-color: #800000;
-  box-shadow: 0.3vw 0.6vw 0px 0px rgb(253, 212, 212),
-    0.1vw 0.4vw 20px 1px rgb(252, 122, 122),
-    inset 0.3vw 0.6vw 0px 0px rgb(255, 195, 195);
-}
-#team2{
-  border-color: #00468b;
-  box-shadow: 0.3vw 0.6vw 0px 0px #a5d0fc,
-    0.1vw 0.4vw 20px 1px #5482af,
-    inset 0.3vw 0.6vw 0px 0px #bbdbfc;
+#team1 {
+    border-color: #800000;
+    box-shadow: 0.3vw 0.6vw 0px 0px rgb(253, 212, 212), 0.1vw 0.4vw 20px 1px rgb(252, 122, 122), inset 0.3vw 0.6vw 0px 0px rgb(255, 195, 195);
 }
 
-.score1,.score2{
-  font-size: 8vw;
-  text-align: center;
-  color: aliceblue;
-
-  text-shadow: 1px 1px 0px #929292,2px 2px 0px #929292,3px 3px 0px #929292,4px 4px 0px #929292;
-
-  width: 100%;
-  height: 100%;
-  padding-bottom: 3vw;
-
-
+#team2 {
+    border-color: #00468b;
+    box-shadow: 0.3vw 0.6vw 0px 0px #a5d0fc, 0.1vw 0.4vw 20px 1px #5482af, inset 0.3vw 0.6vw 0px 0px #bbdbfc;
 }
 
-.scorer{
-  background-color: aliceblue;
-  border-top-left-radius: 10%;
-  border-bottom-left-radius: 40%;
-  margin: auto 0px;
-  width: 15vw;
-  height: 15vw;
-  display: inline;
+.score_r,
+.score_b {
+    font-size: 8vw;
+    text-align: center;
+    color: aliceblue;
+    text-shadow: 1px 1px 0px #929292, 2px 2px 0px #929292, 3px 3px 0px #929292, 4px 4px 0px #929292;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 3vw;
+}
+
+.scorer {
+    background-color: aliceblue;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 40%;
+    margin: auto 0px;
+    width: 15vw;
+    height: 15vw;
+    display: inline;
+}
+
+.buttons button {
+    border-radius: 15px;
+    padding: 10px 20px;
 }
